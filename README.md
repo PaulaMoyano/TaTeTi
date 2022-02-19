@@ -1,3 +1,11 @@
+Juego de TaTeTi hecho con ReactJs
+
+![Tateti1](https://user-images.githubusercontent.com/72522699/154818367-331ad8ff-7462-4922-908d-cbf2b198e60f.jpg)
+
+![Tateti2](https://user-images.githubusercontent.com/72522699/154818369-94944260-81f1-4e76-9ce1-0ccdf63058bb.jpg)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
