@@ -1,8 +1,11 @@
 Juego de TaTeTi hecho con ReactJs
 
-![Tateti1](https://user-images.githubusercontent.com/72522699/154818367-331ad8ff-7462-4922-908d-cbf2b198e60f.jpg)
+![Tateti1](https://user-images.githubusercontent.com/72522699/157308865-4475a98e-6625-49bd-ba58-af94d4b05d15.jpg)
 
-![Tateti2](https://user-images.githubusercontent.com/72522699/154818369-94944260-81f1-4e76-9ce1-0ccdf63058bb.jpg)
+![Tateti2](https://user-images.githubusercontent.com/72522699/157308874-bdfd92d7-2f98-4178-b1f8-4fa98fcfe5ee.jpg)
+
+![Tateti3](https://user-images.githubusercontent.com/72522699/157308879-77e50de6-aad2-45ca-8f6b-d62622f54fbe.jpg)
+
 
 
 
