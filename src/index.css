@@ -1,11 +1,19 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    margin: 40px;
+    background-color: rgba(0, 0, 0, 0.562);
   }
   
   ol, ul {
     padding-left: 30px;
+    font-size: 30px;
   }
+
+  .buttonStyles{
+    font-size: 21px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 25, 255);
+    }
   
   .board-row:after {
     clear: both;
@@ -14,22 +22,23 @@ body {
   }
   
   .status {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 50px;
   }
   
   .square {
-    background: #fff;
-    border: 1px solid #999;
+    background: rgb(42, 255, 227);
+    border: 4px solid rgb(3, 3, 3);
     float: left;
-    font-size: 24px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
+    height: 140px;
+    margin-right: 2px;
+    margin-top: 2px;
+    padding: 50px;
     text-align: center;
-    width: 34px;
+    width: 140px;
   }
   
   .square:focus {
@@ -37,7 +46,7 @@ body {
   }
   
   .kbd-navigation .square:focus {
-    background: #ddd;
+    background: rgb(221, 221, 221);
   }
   
   .game {
@@ -48,4 +57,60 @@ body {
   .game-info {
     margin-left: 20px;
   }
+
+  .game-info2 {
+    display: flex;
+  }
+
+  .neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 4.2rem;    
+  }
+  
+  /* Flickering animation */
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+
+  /* Additional styling */
+  
+h2 {
+  font-size: 1.8rem;
+ }
+ .container {
+   margin-top: 20vh;
+ }
+ 
+ body {
+   font-size: 18px;
+   font-family: "Helvetica Neue", sans-serif;
+   background-color: #010a01;
+ }  
+ 
+ h1, h2 {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 400;
+ }
   

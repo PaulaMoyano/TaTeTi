@@ -85,23 +85,26 @@ function Square(props) {
         const history = this.state.history;
         const current = history[this.state.stepNumber];
         const winner = calculateWinner(current.squares);
+        const gameInProgress = current.squares.some(square => !square)
 
         const moves = history.map((step, move) => {
             const desc = move ?
-              'Go to move #' + move :
-              'Go to game start';
+              'Movimiento #' + move :
+              '¡Comenzar!';
             return (
               <li key={move}>
-                <button onClick={() => this.jumpTo(move)}>{desc}</button>
+                <button className="buttonStyles" onClick={() => this.jumpTo(move)}>{desc}</button>
               </li>
             );
           });
 
         let status;
         if(winner) {
-            status = 'Winner: ' + winner;
+            status = 'Ganó: ' + winner;
+        } else if (gameInProgress) {
+            status = 'Siguiente jugador: ' + (this.state.xIsNext ? 'X' : 'O');
         } else {
-            status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+            status = 'Partida finalizada. No hay ganador.'
         }
       return (
         <div className="game">
@@ -112,8 +115,15 @@ function Square(props) {
             />
           </div>
           <div className="game-info">
-            <div>{status}</div>
-            <ol>{moves}</ol>
+            <div className="neonText status">{status}</div>
+            
+            <div class="game-info2">
+              <ol>{moves}</ol>
+              <div class="container">
+                <h1 class="neonText"> TaTeTi</h1>
+                <h2 class="neonText">¡Jugar!</h2> 
+              </div>
+            </div>
           </div>
         </div>
       );
@@ -147,3 +157,4 @@ function Square(props) {
     }
     return null;
   }
+
