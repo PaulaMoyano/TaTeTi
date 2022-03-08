@@ -1,5 +1,7 @@
 Juego de TaTeTi hecho con ReactJs
 
+Link: https://pautateti.netlify.app/
+
 ![Tateti1](https://user-images.githubusercontent.com/72522699/157308865-4475a98e-6625-49bd-ba58-af94d4b05d15.jpg)
 
 ![Tateti2](https://user-images.githubusercontent.com/72522699/157308874-bdfd92d7-2f98-4178-b1f8-4fa98fcfe5ee.jpg)
